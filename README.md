@@ -6,6 +6,11 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 ![thumbnail](https://raw.githubusercontent.com/ozdalgic/CSS-Circle-Progress/master/example/assets/img/thumbnail.png)
 
 ## Use
+##### Live Demo
+- [Light Theme & No Animation](https://codepen.io/ozdalgic/pen/abOoBoV)
+- [Dark Theme & Animation](https://codepen.io/ozdalgic/pen/ZEGzpPB)
+- [Light Theme & Animation](https://codepen.io/ozdalgic/pen/ZEGzpMO)
+
 ##### CSS
     <link href="assets/css/circle-progress.css" rel="stylesheet">
 
@@ -17,7 +22,6 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 <div data-value="0" style="
         --circle-size:50px;
         --inline-circle-size:80%;
-        --inline-background: red;
         --border-width:3px;
         --border-color:#eee;
         --font: 'Poppins', sans-serif;
