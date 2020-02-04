@@ -4,7 +4,7 @@ SCSS Circle Progress
 version: 1.0
 last modified: 04.02.2020
 author: Aytaç Özdalgıç
-email: aytac@ozdalgiccom
+email: aytac@ozdalgic.com
 website: https://www.ozdalgic.com
 ----------------------------------------------------------*/
 $step: 1;
@@ -53,7 +53,6 @@ $shadow: var(--shadow);
   margin: $border-width;
   box-sizing: content-box;
 
-
   &:before {
     line-height: $size;
     width: $size;
@@ -85,7 +84,7 @@ $shadow: var(--shadow);
     position: absolute;
     display: block;
     z-index: 1;
-    border-color: var(--border-color);
+    border-color: $border-color;
     box-sizing: content-box;
   }
 

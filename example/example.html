@@ -16,7 +16,8 @@
             width: 100%;
             margin: 0;
             padding: 0;
-            background-color: white;
+            background-color: #607D8B;
+            font-family: "Poppins", sans-serif;
         }
     </style>
     <script>
@@ -48,13 +49,56 @@
             circleValue(30, "#circle_001");
             circleValue(100, "#circle_002");
             circleValue(50, "#circle_003");
+            circleValue(75, "#circle_004");
+            circleValue(15, "#circle_005");
         });
     </script>
+    <link href="../source/css/circle-progress.css" rel="stylesheet">
 </head>
 <body>
-<div data-value="0" id="circle_002" style="--circle-size:250px;--inline-circle-size:80%;--inline-background: red;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fefefe;
+<div class="container-fluid">
+    <div class="row py-3 py-lg-5">
+        <div class="col-12">
+            <div class="display-4 text-white text-center ">
+                CSS-Circle-Progress
+            </div>
+            <div class="text-center">
+                <a class="btn btn-lg btn-outline-light" href="https://github.com/ozdalgic/CSS-Circle-Progress">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col mb-3 d-flex align-items-center justify-content-center">
+            <div data-value="0" id="circle_001" style="--circle-size:150px;--inline-circle-size:80%;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fff;
 ">
-    <div data-progress-type="POINT"></div>
+                <div data-progress-type="POINT"></div>
+            </div>
+        </div>
+        <div class="col mb-3 d-flex align-items-center justify-content-center">
+            <div data-value="0" id="circle_002" style="--circle-size:200px;--inline-circle-size:80%;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fff;
+">
+                <div data-progress-type="LOADING"></div>
+            </div>
+        </div>
+        <div class="col mb-3 d-flex align-items-center justify-content-center">
+            <div data-value="0" id="circle_003" style="--circle-size:250px;--inline-circle-size:80%;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fff;
+">
+                <div data-progress-type="SCORE"></div>
+            </div>
+        </div>
+        <div class="col mb-3 d-flex align-items-center justify-content-center">
+            <div data-value="0" id="circle_004" style="--circle-size:200px;--inline-circle-size:80%;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fff;
+">
+                <div data-progress-type="POINT"></div>
+            </div>
+        </div>
+        <div class="col mb-3 d-flex align-items-center justify-content-center">
+            <div data-value="0" id="circle_005" style="--circle-size:150px;--inline-circle-size:80%;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fff;
+">
+                <div data-progress-type="POINT"></div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

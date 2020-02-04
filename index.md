@@ -3,6 +3,13 @@
 Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 ## Use
+##### CSS
+    <link href="assets/css/circle-progress.css" rel="stylesheet">
+
+##### Font Optional
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+##### HTML
 ```html
 <div data-value="0" style="
         --circle-size:50px;
@@ -24,8 +31,7 @@ Option | Value
 **data-progress-type** | `string`
 **--circle-size** | `number:value:pixel`
 **--inline-circle-size** | `number:value:percent` 
-**--inline-background** | `color:hex`  
 **--border-width** | `number:value:pixel`
 **--border-color** | `color:hex`
-**--font** | `font-family`
+**--font** | `font-family:optional`
 **--bg-color** | `color:hex`
