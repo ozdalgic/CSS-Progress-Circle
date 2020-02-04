@@ -20,6 +20,8 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 Option | Value
 --- | --- 
+**data-value** | `0 to 100 number:value`
+**data-progress-type** | `string`
 **--circle-size** | `number:value:pixel`
 **--inline-circle-size** | `number:value:percent` 
 **--inline-background** | `color:hex`  
