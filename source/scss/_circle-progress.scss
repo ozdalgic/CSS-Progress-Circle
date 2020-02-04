@@ -1,0 +1,116 @@
+/* --------------------------------------------------------
+SCSS Circle Progress
+
+version: 1.0
+last modified: 04.02.2020
+author: Aytaç Özdalgıç
+email: aytac@ozdalgiccom
+website: https://www.ozdalgic.com
+----------------------------------------------------------*/
+$step: 1;
+$loops: 100;
+$increment: (360 / $loops);
+$half: round($loops / 2);
+$size: var(--circle-size);
+$inline-circle-size: var(--inline-circle-size);
+$border-width: var(--border-width);
+$border-color: var(--border-color);
+$font: var(--font);
+$background-color: var(--bg-color);
+$shadow: var(--shadow);
+@for $i from 0 through $loops {
+  $value: $i * 1/5;
+  $lightness: 50% - $value;
+  [data-value="#{$i*$step}"] {
+    box-shadow: 0 0 calc(#{$size} / 8) 0 hsla($i, 85%, $lightness, 1);
+
+    &:before {
+      content: '#{$i}';
+    }
+
+    [data-progress-type] {
+      background-color: darken(hsla($i, 85%, $lightness, 1), 10%);
+    }
+
+    @if $i < 50 {
+      $nextdeg: 90deg + ( $increment * $i );
+      background-image: linear-gradient(90deg, $background-color 50%, transparent 50%, transparent),
+      linear-gradient($nextdeg, hsla($i, 85%, $lightness, 1) 50%, $background-color 50%, $background-color);
+    } @else {
+      $nextdeg: -90deg + ( $increment * ( $i - $half ) );
+      background-image: linear-gradient($nextdeg, hsla($i, 85%, $lightness, 1) 50%, transparent 50%, transparent),
+      linear-gradient(270deg, hsla($i, 85%, $lightness, 1) 50%, $background-color 50%, $background-color);
+    }
+  }
+}
+
+[data-value] {
+  position: relative;
+  border-radius: $size;
+  width: $size;
+  height: $size;
+  font-family: $font;
+  margin: $border-width;
+  box-sizing: content-box;
+
+
+  &:before {
+    line-height: $size;
+    width: $size;
+    height: $size;
+    z-index: 75;
+    text-align: center;
+    display: block;
+    font-size: calc(#{$size} / 2.5);
+    font-weight: bold;
+    margin: auto;
+    box-sizing: content-box;
+    color: white;
+    position: absolute;
+  }
+
+  &:after {
+    content: '';
+    height: $size;
+    width: $size;
+    line-height: $size;
+    border-radius: $size;
+    background-color: transparent;
+    border-width: $border-width;
+    border-style: solid;
+    top: calc(#{$border-width} * -1);
+    left: calc(#{$border-width} * -1);
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border-color: var(--border-color);
+    box-sizing: content-box;
+  }
+
+  [data-progress-type] {
+    border-radius: $size;
+    width: $inline-circle-size;
+    height: $inline-circle-size;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    box-sizing: content-box;
+
+    &:after {
+      content: attr(data-progress-type);
+      font-size: calc(#{$size} / 8);
+      color: white;
+      width: 100%;
+      text-align: center;
+      display: block;
+      position: absolute;
+      bottom: calc(#{$size} / 15);
+      box-sizing: content-box
+    }
+  }
+}

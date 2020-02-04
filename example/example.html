@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="assets/css/circle-progress.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/js/jquery.min.js"></script>
+    <style>
+        body, html {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+    </style>
+    <script>
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+
+        function circleValue(value, id) {
+            var counter = 0;
+            var random;
+
+            if (value) {
+                random = value;
+            } else {
+                random = getRandomInt(100);
+            }
+            var interval = setInterval(function () {
+                counter++;
+                if (counter > random) {
+                    clearInterval(interval);
+
+                } else {
+                    $(id + '[data-value]').attr("data-value", counter);
+                }
+            }, (100 * 60) / value);
+        }
+
+        $(document).ready(function () {
+            circleValue(30, "#circle_001");
+            circleValue(100, "#circle_002");
+            circleValue(50, "#circle_003");
+        });
+    </script>
+</head>
+<body>
+<div data-value="0" id="circle_002" style="--circle-size:250px;--inline-circle-size:80%;--inline-background: red;--border-width:10px;--border-color:#eee;--font: 'Poppins', sans-serif;--bg-color: #fefefe;
+">
+    <div data-progress-type="POINT"></div>
+</div>
+</body>
+</html>
+
