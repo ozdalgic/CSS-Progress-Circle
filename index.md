@@ -13,7 +13,7 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
         --font: 'Poppins', sans-serif;
         --bg-color: #fefefe;
 "><div data-progress-type="POINT"></div>
-</div>
+</div> 
 ```
 
 ### Options
