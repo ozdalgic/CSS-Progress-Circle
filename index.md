@@ -7,12 +7,24 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Options
 ```markdown
 --circle-size:250px;
-        --inline-circle-size:80%;
-        --inline-background: red;
-        --border-width:10px;
-        --border-color:#eee;
-        --font: 'Poppins', sans-serif;
-        --bg-color: #fefefe;
+```
+```markdown
+--inline-circle-size:80%;
+```
+```markdown
+--inline-background: red;
+```
+```markdown
+--border-width:10px;
+```
+```markdown
+--border-color:#eee;
+```
+```markdown
+--font: 'Poppins', sans-serif;
+```
+```markdown
+--bg-color: #fefefe;
 ```
 
 
