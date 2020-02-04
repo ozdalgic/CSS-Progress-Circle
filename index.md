@@ -17,23 +17,23 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 ### Options
 ```markdown
-**--circle-size**: _number:value:px_;
+**--circle-size**:*number:value:px*;
 ```
 ```markdown
-**--inline-circle-size**:_number:value:percent;
+**--inline-circle-size**:*number:value:percent*;
 ```
 ```markdown
-**--inline-background**: _color_;
+**--inline-background**: *color*;
 ```
 ```markdown
-**--border-width**:_number:value:px_;
+**--border-width**: *number:value:px*;
 ```
 ```markdown
-**--border-color**:_color_;
+**--border-color**: *color*;
 ```
 ```markdown
-**--font**: _'Poppins', sans-serif_;
+**--font**: *'Poppins', sans-serif*;
 ```
 ```markdown
-**--bg-color**: _color_;
+**--bg-color**: *color*;
 ```
