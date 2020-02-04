@@ -2,6 +2,13 @@
 
 Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
+## Use
+`
+<div data-value="0 to 100 number" style="--circle-size: number(px);--inline-circle-size: number(%);--inline-background: color;--border-width:number(px);--border-color: color;--font: font name;--bg-color: color;">
+    <div data-progress-type="Type name"></div>
+</div>
+`
+
 ### Options
 ```markdown
 --circle-size:250px;
