@@ -3,33 +3,29 @@
 Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 ## Use
-`
-<div data-value="0 to 100 number" style="--circle-size: number(px);--inline-circle-size: number(%);--inline-background: color;--border-width:number(px);--border-color: color;--font: font name;--bg-color: color;">
-    <div data-progress-type="Type name"></div>
-</div>
-`
+
 
 ### Options
 ```markdown
---circle-size:250px;
+**--circle-size**: _number:value:px_;
 ```
 ```markdown
---inline-circle-size:80%;
+**--inline-circle-size**:_number:value:percent;
 ```
 ```markdown
---inline-background: red;
+**--inline-background**: _color_;
 ```
 ```markdown
---border-width:10px;
+**--border-width**:_number:value:px_;
 ```
 ```markdown
---border-color:#eee;
+**--border-color**:_color_;
 ```
 ```markdown
---font: 'Poppins', sans-serif;
+**--font**: _'Poppins', sans-serif_;
 ```
 ```markdown
---bg-color: #fefefe;
+**--bg-color**: _color_;
 ```
 
 
