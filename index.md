@@ -3,7 +3,17 @@
 Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 ## Use
-
+`<div data-value="0" style="
+        --circle-size:50px;
+        --inline-circle-size:80%;
+        --inline-background: red;
+        --border-width:3px;
+        --border-color:#eee;
+        --font: 'Poppins', sans-serif;
+        --bg-color: #fefefe;
+">
+    <div data-progress-type="POINT"></div>
+</div>`
 
 ### Options
 ```markdown
@@ -27,32 +37,3 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 ```markdown
 **--bg-color**: _color_;
 ```
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ozdalgic/CSS-Circle-Progress/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
