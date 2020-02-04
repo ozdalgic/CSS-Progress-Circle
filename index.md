@@ -12,7 +12,10 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 - [Light Theme & Animation](https://codepen.io/ozdalgic/pen/ZEGzpMO)
 
 ##### CSS
-    <link href="assets/css/circle-progress.css" rel="stylesheet">
+    <link href="localpath/circle-progress.css" rel="stylesheet">
+
+##### SCSS
+    @import "localpath/circle-progress.scss";
 
 ##### Font Optional
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
