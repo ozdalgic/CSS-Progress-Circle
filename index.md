@@ -22,13 +22,18 @@ Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
 
 ##### HTML
 ```html
+<div data-value="30"><div data-progress-type="POINT"></div></div>
+```
+
+###### Default
+```html
 <div data-value="0" style="
-        --circle-size:50px;
+        --circle-size:100px;
         --inline-circle-size:80%;
-        --border-width:3px;
+        --border-width:5px;
         --border-color:#eee;
         --font: 'Poppins', sans-serif;
-        --bg-color: #fefefe;
+        --bg-color: #fff;
 "><div data-progress-type="POINT"></div>
 </div> 
 ```
