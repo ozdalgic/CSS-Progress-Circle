@@ -17,7 +17,16 @@ $border-width: var(--border-width);
 $border-color: var(--border-color);
 $font: var(--font);
 $background-color: var(--bg-color);
-$shadow: var(--shadow);
+
+:root {
+  --circle-size: 100px;
+  --inline-circle-size: 80%;
+  --border-width: 5px;
+  --border-color: #eee;
+  --font: 'Poppins', sans-serif;;
+  --bg-color: #fff;
+}
+
 @for $i from 0 through $loops {
   $value: $i * 1/5;
   $lightness: 50% - $value;
