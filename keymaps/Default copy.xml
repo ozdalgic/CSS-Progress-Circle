@@ -1,11 +1,14 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta up" />
-  </action>
   <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+    <keyboard-shortcut first-keystroke="meta minus" />
     <keyboard-shortcut first-keystroke="meta up" />
   </action>
-  <action id="CollapseRegionRecursively" />
+  <action id="CollapseRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt subtract" />
+    <keyboard-shortcut first-keystroke="meta alt minus" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="Console.TableResult.NavigateAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -13,13 +16,16 @@
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
   <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta add" />
+    <keyboard-shortcut first-keystroke="meta equals" />
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
-  <action id="ExpandRegionRecursively" />
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt add" />
+    <keyboard-shortcut first-keystroke="meta alt equals" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
   <action id="IncrementWindowHeight" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
