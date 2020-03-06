@@ -1,0 +1,26 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="CollapseRegionRecursively" />
+  <action id="DecrementWindowHeight" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="ExpandRegionRecursively" />
+  <action id="MoveStatementUp" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowUp" />
+  <action id="SearchEverywhere.NavigateToPrevGroup">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+  </action>
+</keymap>
