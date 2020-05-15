@@ -23,6 +23,10 @@
   <action id="IncrementWindowHeight" />
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="PublishGroup.UploadTo">
+    <keyboard-shortcut first-keystroke="shift meta alt x" />
+    <keyboard-shortcut first-keystroke="shift caps_lock" />
+  </action>
   <action id="ResetColumnsWidth" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
