@@ -1,9 +1,9 @@
 ## CSS Circle Progress
 
-Visit the [Web Page](https://ozdalgic.github.io/CSS-Circle-Progress/)
+Visit the [Web Page](https://ozdalgic.github.io/CSS-Progress-Circle/)
     
 #### Animation or Fixed, Dark or Light, Flexible Customization
-![thumbnail](https://raw.githubusercontent.com/ozdalgic/CSS-Circle-Progress/master/example/assets/img/thumbnail.png)
+![thumbnail](https://raw.githubusercontent.com/ozdalgic/CSS-Progress-Circle/master/example/assets/img/thumbnail.png)
 
 ## Use
 ##### Live Demo
