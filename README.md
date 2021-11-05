@@ -1,4 +1,4 @@
-## CSS Circle Progress
+## CSS Progress Circle
 
 Visit the [Web Page](https://ozdalgic.github.io/CSS-Progress-Circle/)
     
